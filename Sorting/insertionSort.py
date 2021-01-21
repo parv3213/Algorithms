@@ -1,6 +1,6 @@
 # Insertion Sort
 
-def incertionSort (arr):
+def insertionSort (arr):
     for i in range(1, len(arr)):
         if arr[i-1] > arr[i]:
             key = arr[i]
@@ -14,5 +14,5 @@ def incertionSort (arr):
 # Driver code
 arr = [64, 34, 25, 12, 22, 11, 90] 
 print ("Sorted Array:")
-arr = incertionSort(arr)
+arr = insertionSort(arr)
 print (arr)
